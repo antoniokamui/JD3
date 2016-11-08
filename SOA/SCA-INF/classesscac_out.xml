@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Faults>
+   <Fault>
+      <severity>warning</severity>
+      <loc>/ns:composite/ns:component[@name='OracleRules_TaxasServicosRG/OracleRules_TaxasServicosRG_DecisionService_1']</loc>
+      <line/>
+      <col/>
+      <file>C:\JDeveloper\mywork\AppSistemaAtendimento\PrjTaxaServicos\SOA\composite.xml</file>
+      <name>C:\JDeveloper\mywork\AppSistemaAtendimento\PrjTaxaServicos\SOA\composite.xml</name>
+      <fix/>
+      <msg>The service "OracleRules_TaxasServicosRG_DecisionService_1" exposed by component "OracleRules_TaxasServicosRG" is not wired to/used by any other component.</msg>
+   </Fault>
+   <Fault>
+      <severity>warning</severity>
+      <loc>/*[namespace-uri()='http://docs.oasis-open.org/wsbpel/2.0/process/executable'][local-name()='process']/*[namespace-uri()='http://docs.oasis-open.org/wsbpel/2.0/process/executable'][local-name()='sequence'][@name='main']/*[namespace-uri()='http://docs.oasis-open.org/wsbpel/2.0/process/executable'][local-name()='if'][@name='If1']/*[namespace-uri()='http://docs.oasis-open.org/wsbpel/2.0/process/executable'][local-name()='condition']</loc>
+      <line>105</line>
+      <col/>
+      <file>BPEL/BPELProcess_TaxaServicos.bpel</file>
+      <name>BPEL/BPELProcess_TaxaServicos.bpel</name>
+      <fix>Make sure that the expression in &lt;bpel:condition> is a boolean expression.</fix>
+      <msg>The expression xp20:compare(xp20:upper-case($inputVariable.payl ... in &lt;bpel:condition> is not a boolean expression.</msg>
+   </Fault>
+   <Fault>
+      <severity>error</severity>
+      <loc>OracleRules_Exemplos</loc>
+      <line/>
+      <col/>
+      <file/>
+      <name/>
+      <fix/>
+      <msg>Rule Dictionary OracleRules_Exemplos is invalid.</msg>
+   </Fault>
+   <Fault>
+      <severity>error</severity>
+      <loc>OracleRules_TaxasServicosRG</loc>
+      <line/>
+      <col/>
+      <file/>
+      <name/>
+      <fix/>
+      <msg>Rule Dictionary OracleRules_TaxasServicosRG is invalid.</msg>
+   </Fault>
+</Faults>
